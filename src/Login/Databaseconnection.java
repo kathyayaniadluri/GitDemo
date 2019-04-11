@@ -21,6 +21,8 @@ public class Databaseconnection {
 		Connection con = DriverManager.getConnection("Jdbc:mysql://"+"localhost"+":"+"3306"+"/seleniumdb","root","Digital");
 		if (con != null) {
                 System.out.println("Connected to the database test2");
+                System.out.println("Connected to the database test3");
+                System.out.println("Connected to the database test4");
             }
 
 		System.out.println("database created");
